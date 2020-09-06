@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-emerald",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.24.53",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.3.27",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-burger-menu": "^2.7.1",
+    "react-dom": "^16.13.1",
+    "react-svg": "^11.0.38"
+  }
+}

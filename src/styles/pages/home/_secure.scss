@@ -1,0 +1,163 @@
+.secure {
+  padding: 86px 0 120px;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    padding: 48px 0 60px;
+
+  }
+
+  &__title {
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    color: $text-color;
+    @media screen and (max-width: 992px) {
+      font-size: 40px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      padding: 0 30px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 32px;
+      padding: 0 0px;
+    }
+  }
+
+  &__wrap-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+  }
+
+  &__sup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 750px;
+    margin: 33px auto auto;
+
+    span {
+      color: $text-color;
+      font-size: 21px;
+      line-height: 1.5;
+      @media screen and (max-width: 992px) {
+        font-size: 18px;
+      }
+    }
+
+    @media screen and (max-width: 992px) {
+      max-width: 550px;
+    }
+
+  }
+
+  &__desc {
+    color: $lightBlue;
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 1.9;
+    margin: 65px auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 992px) {
+      max-width: 550px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 85px auto auto;
+    & > div {
+      width: 100%;
+      max-width: 240px;
+
+    }
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      margin: 45px auto auto;
+
+      & > div {
+        flex-direction: column;
+
+        &:not(last-child) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+
+  }
+
+  &__bg-img {
+    position: absolute;
+    max-width: 440px;
+    max-height: 350px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    svg {
+      max-width: 440px;
+      max-height: 350px;
+      width: 100%;
+      height: 100%;
+      @media screen and (max-width: 1300px) {
+        width: 65%;
+        height: 65%;
+        display: block;
+      }
+      @media screen and (max-width: 992px) {
+        width: 50%;
+        height: 50%;
+      }
+
+    }
+
+    @media screen and (max-width: 1300px) {
+      width: 70%;
+      height: 70%;
+    }
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+
+    &_left {
+      left: 0;
+      top: 240px;
+      @media screen and (max-width: 1300px) {
+        svg {
+          margin-right: auto;
+
+        }
+      }
+
+    }
+
+    &_rigth {
+      right: 0;
+      top: 27px;
+      @media screen and (max-width: 1300px) {
+        top: 17px;
+        svg {
+          margin-left: auto;
+
+        }
+      }
+      @media screen and (max-width: 992px) {
+        top: 0px;
+
+      }
+      @media screen and (max-width: 768px) {
+        top: -20px;
+      }
+    }
+  }
+}

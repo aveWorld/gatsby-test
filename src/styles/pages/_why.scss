@@ -1,0 +1,55 @@
+.why {
+  padding-top: 117px;
+  padding-bottom: 37px;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__bg-img {
+    position: absolute;
+    top: -87px;
+    left: 0;
+    max-width: 280px;
+    max-height: 222px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (max-width: 992px) {
+      top: -120px;
+
+      svg {
+        width: 80%;
+        height: 80%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      top: -90px;
+
+
+      svg {
+        width: 60%;
+        height: 60%;
+      }
+    }
+
+  }
+
+  &__desc {
+    max-width: 660px;
+    width: 100%;
+    margin-left: auto;
+
+    p {
+      font-size: 21px;
+      line-height: 1.7;
+      margin-top: 37px;
+      color: $text-color;
+    }
+
+
+  }
+}

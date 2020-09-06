@@ -1,0 +1,25 @@
+.docs-card__p {
+    padding-top: 26px;
+    text-decoration-line: underline;
+    font-size: 16px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.docs-card__img {
+    text-align: center;
+}
+
+@media (max-width:767px){
+    .docs-card {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .docs-card__p {
+        padding-top: 0;
+    }
+  }
+  

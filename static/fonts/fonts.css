@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Reso Regular 3';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reso Regular 3'), url('assets/fonts/Reso Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Reso Regular 2';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reso Regular 2'), url('assets/fonts/Reso Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Reso Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reso Regular'), url('assets/fonts/Reso Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Reso Regular 5';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reso Regular 5'), url('assets/fonts/Reso SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Reso Regular 4';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reso Regular 4'), url('assets/fonts/Reso Thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.eot');
+  src: url('assets/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/Roboto-Regular.woff2') format('woff2'),
+  url('assets/fonts/Roboto-Regular.woff') format('woff'),
+  url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('assets/fonts/TrebuchetMS.eot');
+  src: url('assets/fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/TrebuchetMS.woff2') format('woff2'),
+  url('assets/fonts/TrebuchetMS.woff') format('woff'),
+  url('assets/fonts/TrebuchetMS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('assets/fonts/TrebuchetMS-Bold.eot');
+  src: url('assets/fonts/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/TrebuchetMS-Bold.woff2') format('woff2'),
+  url('assets/fonts/TrebuchetMS-Bold.woff') format('woff'),
+  url('assets/fonts/TrebuchetMS-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
