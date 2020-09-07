@@ -1,17 +1,18 @@
 
 import * as React from 'react';
-import { ReactSVG } from 'react-svg'
-import sec1Img from '../../assets/svg/pages-sec1_1.svg'
-import sec1Img1 from '../../assets/svg/pages-sec1_2.svg'
-import circle1 from '../../assets/svg/circle1.svg'
-import circle2 from '../../assets/svg/circle2.svg'
-import circle3 from '../../assets/svg/circle3.svg'
+import ReactSVG from '../../components/ReactSVG'
+import Sec1Img from '../../assets/svg/pages-sec1_1.svg'
+import Sec1Img1 from '../../assets/svg/pages-sec1_2.svg'
+import Сircle1 from '../../assets/svg/circle1.svg'
+import Сircle2 from '../../assets/svg/circle2.svg'
+import Сircle3 from '../../assets/svg/circle3.svg'
 import sec2Img from '../../assets/svg/products_sec2.svg'
 import Card from '../../components/Card'
 import Layout from '../../components/Layout'
 
 
 const Products = (props) => {
+  console.log(sec2Img)
   return (
     <Layout>
       <div className="first-sec">
@@ -22,15 +23,21 @@ const Products = (props) => {
                       <p>Emerald Circuit’s Core Product Selection Is Grounded In the Belief That IoT Data Must Be Secure Above All Else.</p>
                       <p className="text-padding">The Emerald Circuit Solution Stack Includes Secure IoT Devices Made For Individual Products, Containers of Products, and Entire Pallets of Products.</p>
                   </div>
-                  <ReactSVG src={sec1Img} className="first-sec__img"/>
+                  <ReactSVG 
+                    classSVG="first-sec__img"
+                    SVG={Sec1Img}
+                  />
               </div>
               <div className="first-sec__cards">
-                  <Card text={'The Smart Flask'} Img={circle1} />
-                  <Card text={'The Smart Container'} Img={circle2} />
-                  <Card text={'The Smart Pallet'} Img={circle3} />
+                  <Card text={'The Smart Flask'} img={Сircle1} />
+                  <Card text={'The Smart Container'} img={Сircle2} />
+                  <Card text={'The Smart Pallet'} img={Сircle3} />
               </div>
               <div className="first-sec__circuit-pallet">
-                  <ReactSVG src={sec1Img1} className="first-sec__img"/>
+                  <ReactSVG 
+                    classSVG="first-sec__img"
+                    SVG={Sec1Img1}
+                  />
                   <div className="circuit-pallet__text">
                       <h2 className="circuit-pallet__h2">The Future of Data Management Is Here: Introducing the Emerald Circuit Pallet Network</h2>
                       <p className="text-padding">Integrate All Of Your Intelligent Objects Into A Single Network On The Edge:
@@ -52,7 +59,7 @@ const Products = (props) => {
               <p className="second-sec__p">The Emerald Circuit Sidechain is an independent protocol operating on the Ambrosus Blockchain.
                 Utilized with the EMR Token, Data is sent from sensor, to sidechain and then onwards to the Ambrosus blockchain.</p>
             </div>
-            <img src={sec2Img} className="second-sec__img" alt="img"/>
+            <ReactSVG SVG={sec2Img} classSVG="second-sec__img"/>
           </div>
         </div>
     </Layout>

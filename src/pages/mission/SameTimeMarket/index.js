@@ -2,7 +2,7 @@
 import React from 'react';
 
 /** Assets * */
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../../components/ReactSVG';
 
 /** SVG * */
 import MissionsBigLogo from '../../../assets/svg/missions-big-logo.svg';
@@ -59,7 +59,7 @@ const SameTimeMarket = () => (
       <div className="darkblue-block-flex-container container">
         <div className="darkblue-block-logo">
           <ReactSVG
-            src={MissionsBigLogo}
+            SVG={MissionsBigLogo}
           />
         </div>
         <div className="darkblue-block-content">

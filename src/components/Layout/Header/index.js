@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 /** Assets * */
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../ReactSVG';
 
 /** SVG * */
 import HeaderLogo from '../../../assets/svg/header-logo.svg';
@@ -19,7 +19,7 @@ const Header = (props) => (
       <Link to="/" className="header-wrapper-logo-link">
         <div className="header-wrapper-logo">
           <ReactSVG
-            src={HeaderLogo}
+            SVG={HeaderLogo}
           />
           <p className="header-wrapper-logo-text">Emerald Circuit</p>
         </div>

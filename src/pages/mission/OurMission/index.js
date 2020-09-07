@@ -2,7 +2,7 @@
 import React from 'react';
 
 /** Assets * */
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../../components/ReactSVG';
 
 /** SVG * */
 import MissionMainSvg from '../../../assets/svg/missions-main-eye.svg';
@@ -14,7 +14,7 @@ const OurMission = () => (
       <div className="our-mission">
         <div className="our-mission_logo">
           <ReactSVG
-            src={MissionMainSvg}
+            SVG={MissionMainSvg}
           />
         </div>
         <div className="our-mission_content">
@@ -41,7 +41,7 @@ const OurMission = () => (
       <div className="our-mission-items">
         <div className="our-mission-items-quotes">
           <ReactSVG
-            src={OurMissionQuotesSvg}
+            SVG={OurMissionQuotesSvg}
           />
         </div>
         <div className="our-mission_content">
@@ -57,7 +57,7 @@ const OurMission = () => (
       <div className="our-mission-items">
         <div className="our-mission-items-quotes">
           <ReactSVG
-            src={OurMissionQuotesSvg}
+            SVG={OurMissionQuotesSvg}
           />
         </div>
         <div className="our-mission_content">
@@ -74,7 +74,7 @@ const OurMission = () => (
       <div className="our-mission-items">
         <div className="our-mission-items-quotes">
           <ReactSVG
-            src={OurMissionQuotesSvg}
+            SVG={OurMissionQuotesSvg}
           />
         </div>
         <div className="our-mission_content">

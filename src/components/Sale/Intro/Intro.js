@@ -1,9 +1,9 @@
 // @flow
 import * as React from 'react';
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../ReactSVG';
 
 // svg
-import inroSvg from '../../../assets/sale/mainSale.svg';
+import InroSvg from '../../../assets/sale/mainSale.svg';
 
 // componets
 
@@ -15,7 +15,7 @@ const Intro = () => (
     <div className="intro__wrapper container">
 
       <div className="intro__desc">
-        <ReactSVG src={inroSvg} className="intro__bg-img" />
+        <ReactSVG SVG={InroSvg} classSVG="intro__bg-img" />
 
         <h1 className="intro__title">
           <span>/</span>

@@ -11,6 +11,15 @@ module.exports = {
             urls: ["/fonts/fonts.css"],
           },
         },
+      },
+      {
+        resolve: "gatsby-plugin-react-svg",
+        options: {
+          rule: {
+            include: /assets/, 
+            exclude: /assets\/[a-zA-Z]{1,}\.png/
+          }
+        }
       }
     ],
   }

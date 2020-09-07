@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "gatsby": "^2.24.53",
+    "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.27",

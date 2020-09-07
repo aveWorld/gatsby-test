@@ -1,16 +1,16 @@
 // @flow
 import * as React from 'react';
 
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../ReactSVG';
 
 // svg
-import whySvg from '../../../assets/sale/circle.svg';
+import WhySvg from '../../../assets/sale/circle.svg';
 
 const WhySection = () => (
   <section className="why">
 
     <div className="why__wrapper container">
-      <ReactSVG src={whySvg} className="why__bg-img" />
+      <ReactSVG SVG={WhySvg} classSVG="why__bg-img" />
       <div className="why__desc">
         <h2 className="intro__title intro__title_why">
           <span>/</span>

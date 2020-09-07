@@ -1,14 +1,13 @@
 import React from 'react';
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../components/ReactSVG';
 
 
-const Card = ({ Img, text }) => {
-  console.log(Img)
+const Card = ({ img, text }) => {
+  console.log(img)
 return (
   <div className="card-circle">
     <div className="card-circle__circle">
-      {/* <img src={Img} alt=""/> */}
-      <ReactSVG src={Img} className="card-circle__img" />
+      <ReactSVG SVG={img} classSVG="card-circle__img" />
     </div>
     <p className="card-circle__p">{text}</p>
   </div>

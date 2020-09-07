@@ -1,21 +1,23 @@
 
 import * as React from 'react';
 
-import { ReactSVG } from 'react-svg';
+import ReactSVG from '../../ReactSVG';
 import { Link } from 'gatsby';
 // svg
-import facebookIcone from '../../../assets/sale/face.svg';
-import telegIcone from '../../../assets/sale/tel.svg';
-import mIcone from '../../../assets/sale/M.svg';
-import linkIcone from '../../../assets/sale/lin.svg';
-import logo from '../../../assets/sale/logo.svg';
+import FacebookIcone from '../../../assets/sale/face.svg';
+import TelegIcone from '../../../assets/sale/tel.svg';
+import MIcone from '../../../assets/sale/M.svg';
+import LinkIcone from '../../../assets/sale/lin.svg';
+import Logo from '../../../assets/sale/logo.svg';
 
-const Footer = () => (
+const Footer = () => {
+  console.log(Logo)
+return (
   <footer className="footer">
     <div className="footer__wrapper container ">
       <div className="footer__left">
         <Link to="/" className="footer__logo">
-          <ReactSVG src={logo} />
+          <ReactSVG SVG={Logo}/>
 
         </Link>
         <div className="footer__wrap-nav">
@@ -37,19 +39,20 @@ const Footer = () => (
       </div>
       <div className="footer__rigth">
         <div className="footer__social">
-          <a href="/" className="footer__social-item"><ReactSVG src={mIcone} className="footer__social-item" /></a>
+          <a href="/" className="footer__social-item"><ReactSVG SVG={MIcone} classSVG="footer__social-item" /></a>
           <a href="https://t.me/joinchat/AAAAAFBjCKxn6bvwEFpacA" className="footer__social-item">
             <ReactSVG
-              src={telegIcone}
-              className="footer__social-item"
+              classSVG="footer__social-item"
+              SVG={TelegIcone}
             />
           </a>
-          <a href="/" className="footer__social-item"><ReactSVG src={facebookIcone} className="footer__social-item" /></a>
-          <a href="/" className="footer__social-item"><ReactSVG src={linkIcone} className="footer__social-item" /></a>
+          <a href="/" className="footer__social-item"><ReactSVG classSVG="footer__social-item" SVG={FacebookIcone}/></a>
+          <a href="/" className="footer__social-item"><ReactSVG classSVG="footer__social-item" SVG={LinkIcone}/></a>
         </div>
       </div>
     </div>
   </footer>
 );
+}
 
 export default Footer;
