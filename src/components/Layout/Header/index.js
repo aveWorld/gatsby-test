@@ -51,7 +51,9 @@ const Header = (props) => (
           </Link>
         </p>
         <p className="header-wrapper-navbar-items">
-          <a href="#" className="header-wrapper-navbar-items-link">Blog</a>
+        <Link to="/blog" className="header-wrapper-navbar-items-link">
+           Blog
+          </Link>
         </p>
       </div>
     </div>

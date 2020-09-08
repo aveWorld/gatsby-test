@@ -10,10 +10,10 @@
     font-size: 60px;
     line-height: 1.2;
     margin: unset;
-    color: $text-color;
+    color: $textColor;
 
     span {
-      color: $green-color
+      color: $greenColor
     }
 
     @media screen and (max-width: 992px) {
@@ -38,7 +38,7 @@
     margin-top: 23px;
     font-size: 21px;
     line-height: 1.8;
-    color: $text-color;
+    color: $textColor;
     @media screen and (max-width: 992px) {
       font-size: 18px;
     }
@@ -71,7 +71,7 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 1.2;
-    color: $text-color;
+    color: $textColor;
     text-align: center;
     @media screen and (max-width: 992px) {
       font-size: 26px;
@@ -90,7 +90,7 @@
   &__type {
     font-size: 16px;
     line-height: 1.2;
-    color: $text-color;
+    color: $textColor;
     text-transform: uppercase;
     @media screen and (max-width: 768px) {
       font-size: 14px;
@@ -107,7 +107,7 @@
       font-size: 40px;
       line-height: 1.15;
       font-weight: bold;
-      color: $text-color;
+      color: $textColor;
       @media screen and (max-width: 992px) {
         font-size: 36px;
       }
@@ -125,7 +125,7 @@
     align-items: center;
     padding: 40px 20px;
     flex-basis: calc(50% - 20px);
-    background: $bg__card;
+    background: $bgCard;
     cursor: pointer;
     transition: .3s;
     min-height: 200px;
@@ -179,7 +179,7 @@
     }
 
     &:hover {
-      background: $green-color;
+      background: $greenColor;
     }
   }
 
@@ -187,7 +187,7 @@
     margin-top: 13px;
     font-size: 21px;
     line-height: 1.12;
-    color: $text-color;
+    color: $textColor;
     @media screen and (max-width: 768px) {
       font-size: 12px;
     }
@@ -231,14 +231,14 @@
     border-radius: 90px;
     max-width: 320px;
     width: 100%;
-    background: $green-color;
+    background: $greenColor;
     outline: none;
     border: transparent;
     display: flex;
     justify-content: center;
     cursor: pointer ;
     &:active{
-      background: $active-color-btn;
+      background: $activeColorBtn;
 
     }
 

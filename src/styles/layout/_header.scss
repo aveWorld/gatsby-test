@@ -51,7 +51,7 @@
     align-items: center;
 
     &-link {
-      color: $text-color;
+      color: $textColor;
     }
 
     &-text {
@@ -66,10 +66,10 @@
 
       &-link {
         font-size: 14px;
-        color: $text-color;
+        color: $textColor;
 
         &:hover {
-          border-bottom: 2px solid $green-color;
+          border-bottom: 2px solid $greenColor;
         }
       }
     }
@@ -105,10 +105,10 @@
 
       &-link {
         font-size: 22px;
-        color: $text-color;
+        color: $textColor;
 
         &:hover {
-          border-bottom: 1px solid $text-color;
+          border-bottom: 1px solid $textColor;
         }
       }
     }

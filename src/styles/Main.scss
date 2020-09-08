@@ -17,6 +17,7 @@
 @import "components/card";
 @import "components/docsCard";
 @import "components/_sideBar.scss";
+@import "components/blogArticle";
 @import "components/blogArticle.scss";
 
 
@@ -31,6 +32,9 @@
 @import "./pages/blog_main";
 
 @import "./pages/home/secure";
-@import "./pages/home/article";
-@import "./pages/home/schems";
+@import "./pages/home/blog-article";
+@import "pages/home/home-slider";
+@import "pages/home/scheme";
+@import "pages/home/points";
+@import "./pages/not-found";
 

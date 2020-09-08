@@ -57,7 +57,7 @@
   &__item {
     padding-right: 14px;
     letter-spacing: 0.02em;
-    color: $text-color;
+    color: $textColor;
     font-size: 14px;
     line-height: 2;
     @media screen and (max-width: 500px) {
@@ -71,7 +71,7 @@
     span {
       font-size: 12px;
       line-height: 2.2;
-      color: $roboto-color;
+      color: $robotoColor;
     }
   }
 

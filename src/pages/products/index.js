@@ -12,7 +12,6 @@ import Layout from '../../components/Layout'
 
 
 const Products = (props) => {
-  console.log(sec2Img)
   return (
     <Layout>
       <div className="first-sec">

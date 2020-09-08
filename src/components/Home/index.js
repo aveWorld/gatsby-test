@@ -1,17 +1,22 @@
 
-import * as React from 'react';
+import React, { useState } from 'react';
 
 import Secure from './Secure';
-import Article from './Article';
-import Schems from './Schem';
+import HomeSlider from './HomeSlider';
+import Points from './Points';
+import Scheme from './Scheme';
+import articles from './article';
 
-// eslint-disable-next-line no-unused-vars
-const Home = (props) => (
+const Home = (props) => {
+  const [articlesMain, setArticles] = useState(articles);
+  return (
   <div>
     <Secure />
-    <Article />
-    <Schems />
+    {articlesMain.length > 0 && <HomeSlider articles={articlesMain} /> }
+    <Scheme />
+    <Points />
   </div>
-);
+  );
+}
 
 export default Home;

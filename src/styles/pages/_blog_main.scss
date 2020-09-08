@@ -1,12 +1,14 @@
 .blog__articles {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    margin-bottom: 150px;
 }
 
 .blog__btn {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 150px;
     margin-bottom: 114px;
 }
 
@@ -22,6 +24,7 @@
 
 @media (max-width:768px){
     .blog__articles {
+        grid-template-columns: 1fr;
         justify-content: center;
     }
 

@@ -12,7 +12,7 @@
     text-align: center;
     max-width: 750px;
     margin: auto;
-    color: $text-color;
+    color: $textColor;
     @media screen and (max-width: 992px) {
       font-size: 40px;
     }
@@ -40,7 +40,7 @@
     margin: 33px auto auto;
 
     span {
-      color: $text-color;
+      color: $textColor;
       font-size: 21px;
       line-height: 1.5;
       @media screen and (max-width: 992px) {

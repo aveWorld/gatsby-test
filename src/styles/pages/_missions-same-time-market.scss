@@ -23,7 +23,7 @@
 
       &-text {
         font-size: 21px;
-        color: $text-color;
+        color: $textColor;
       }
     }
   }
@@ -35,7 +35,7 @@
 
 .darkblue-block {
   margin-top: 220px;
-  background-color: $text-color;
+  background-color: $textColor;
 
   &-flex-container {
     display: flex;
@@ -54,7 +54,7 @@
     &-text {
       font-size: 24px;
       text-transform: uppercase;
-      color: $green-color;
+      color: $greenColor;
     }
   }
 }

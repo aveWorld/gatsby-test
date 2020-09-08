@@ -13,29 +13,26 @@
       }
 
       &-slash {
-        color: $green-color;
+        color: $greenColor;
         font-weight: bold;
       }
     }
 
     &-logo-text {
       font-size: 21px;
-      color: $text-color;
+      color: $textColor;
       margin-top: 20px;
     }
 
     &-text {
       font-size: 30px;
-      color: $text-color;
+      color: $textColor;
     }
 
     &-link {
       margin-top: 15px;
       text-decoration: underline;
-
-      &-items {
-        color: $text-color;
-      }
+      color: $textColor;
     }
   }
 
@@ -66,7 +63,7 @@
 
 .hr-grey-line {
   margin-top: 110px;
-  background-color: $text-color;
+  background-color: $textColor;
   opacity: 0.3;
 }
 

@@ -1,0 +1,70 @@
+.points{
+  background: $bgPoints;
+  padding: 73px 0 80px;
+  @media screen and (max-width: 768px) {
+    padding: 43px 0 50px;
+
+  }
+
+  &__wrapper{
+    padding: 0 100px;
+    @media screen and (max-width: 1200px) {
+      padding: 0 50px;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 0 15px;
+
+    }
+
+    }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+
+    }
+
+
+
+    }
+  &__item{
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    color: $textColor;
+    align-items: center;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      flex-basis: 45%;
+      max-width: 100%;
+
+    }
+    @media screen and (max-width: 500px) {
+      flex-basis: 100%;
+
+    }
+
+    }
+  &__calling{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 39px;
+
+  }
+  &__amount{
+    margin-top: 32px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  &__subtitle{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+
+
+}

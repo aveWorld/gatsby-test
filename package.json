@@ -15,11 +15,14 @@
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-copy-linked-files": "^2.3.14",
     "gatsby-source-filesystem": "^2.3.27",
+    "gatsby-transformer-remark": "^2.8.33",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-burger-menu": "^2.7.1",
     "react-dom": "^16.13.1",
+    "react-slick": "^0.27.11",
     "react-svg": "^11.0.38"
   }
 }
