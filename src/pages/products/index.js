@@ -6,7 +6,7 @@ import Sec1Img1 from '../../assets/svg/pages-sec1_2.svg'
 import Сircle1 from '../../assets/svg/circle1.svg'
 import Сircle2 from '../../assets/svg/circle2.svg'
 import Сircle3 from '../../assets/svg/circle3.svg'
-import sec2Img from '../../assets/svg/products_sec2.svg'
+import sec2Img from '../../exclude/products_sec2.svg'
 import Card from '../../components/Card'
 import Layout from '../../components/Layout'
 
@@ -58,7 +58,7 @@ const Products = (props) => {
               <p className="second-sec__p">The Emerald Circuit Sidechain is an independent protocol operating on the Ambrosus Blockchain.
                 Utilized with the EMR Token, Data is sent from sensor, to sidechain and then onwards to the Ambrosus blockchain.</p>
             </div>
-            <ReactSVG SVG={sec2Img} classSVG="second-sec__img"/>
+            <img src={sec2Img} className="second-sec__img"/>
           </div>
         </div>
     </Layout>

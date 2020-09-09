@@ -11,7 +11,6 @@ import LinkIcone from '../../../assets/sale/lin.svg';
 import Logo from '../../../assets/sale/logo.svg';
 
 const Footer = () => {
-  console.log(Logo)
 return (
   <footer className="footer">
     <div className="footer__wrapper container ">

@@ -8,7 +8,6 @@ import Scheme from './Scheme';
 
 
 const Home = ({ data }) => {
-  console.log(data)
   const [articlesMain, setArticles] = useState(data.allMarkdownRemark.edges);
   return (
   <div>

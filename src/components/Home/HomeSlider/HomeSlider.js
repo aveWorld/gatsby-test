@@ -26,9 +26,7 @@ function PrevArrow(props) {
 
 
 const HomeSlider = ({ articles }) => {
-  console.log(articles)
   function amountSlide() {
-    // eslint-disable-next-line no-unused-expressions
     return articles.length >= 3 ? 3 : (articles.length === 2 ? 2 : 1);
   }
 

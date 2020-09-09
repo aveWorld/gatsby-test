@@ -16,8 +16,7 @@ module.exports = {
         resolve: "gatsby-plugin-react-svg",
         options: {
           rule: {
-            include: /assets/, 
-            exclude: /assets\/[a-zA-Z]{1,}\.png/
+            include: /assets/
           }
         }
       },
@@ -40,7 +39,8 @@ module.exports = {
             },
           ],
         },
-      }
+      },
+      `gatsby-plugin-react-helmet`
     ],
   }
   

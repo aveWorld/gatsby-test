@@ -35,10 +35,10 @@
 
 
 @media (max-width:768px){
-    .blog__article:nth-child(n) {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+    // .blog__article:nth-child(n) {
+    //     margin-left: 20px;
+    //     margin-right: 20px;
+    // }
     .blog__article {
         flex-basis: calc(50% - 40px)
     }
