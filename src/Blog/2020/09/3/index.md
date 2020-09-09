@@ -1,10 +1,10 @@
 ---
-path: '/blog/intelligent-objects-for-guaranteed-product-authenticity'
+path: '/blog/the-internet-of-things-and-emerald-circuit'
 date: '17 September, 2020'
-title: 'Intelligent Objects For Guaranteed Product Authenticity'
-author: 'mishaGG'
-image: './ecb1_3.png'
-description: 'Emerald Circuit: Intelligent Objects For Guaranteed Product Authenticity'
+title: 'The Internet of Things and Emerald Circuit:'
+author: 'misha'
+image: './ecb1_1.png'
+description: 'The Next Generation Of Intelligent Objects Has Arrived'
 ---
 
 <div class="article-blog-title-bg">
@@ -52,7 +52,6 @@ description: 'Emerald Circuit: Intelligent Objects For Guaranteed Product Authen
             network.
             Known as the ‘Garbage-in, Garbage-Out problem’ IoT devices threaten to delegitimize the security and
             immutability provided by blockchain networks: While blockchain’s security benefits are
-            {' '}
             <span class="article-blog-content-text-span">well known</span>
             , the
             original data entry must be made in good faith to protect the integrity of the data that is stored and
@@ -80,15 +79,12 @@ description: 'Emerald Circuit: Intelligent Objects For Guaranteed Product Authen
           <p class="article-blog-content-text">
             In context, Cybersecurity is the greatest threat to IoT implementation.
             In 2019, cyberattacks on IoT devices
-            {' '}
             <span class="article-blog-content-text-span">surged 300%</span>
             , totaling over 2.9 billion hacking events. These
             attacks
             can
             be attributed to the fact that over
-            {' '}
             <span class="article-blog-content-text-span">98 percent</span>
-            {' '}
             of IoT traffic is unencrypted, making over half of all
             IoT
             devices vulnerable to medium- to high-severity attacks. These security breaches represent a significant
@@ -97,9 +93,7 @@ description: 'Emerald Circuit: Intelligent Objects For Guaranteed Product Authen
             Though most security breaches make it to the headlines in the form of embarrassing leaks to private
             data,
             hackers are already using IoT breaches to access and exploit
-            {' '}
             <span class="article-blog-content-text-span">company-wide data systems</span>
-            {' '}
             for malicious
             ends.
           </p>

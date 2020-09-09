@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import ReactSVG from '../ReactSVG'
 
 const ArticleTile = ({ img, title, subtitle, date, url }) => (
   <Link to={`${url}`} className="blog__article">

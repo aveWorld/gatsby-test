@@ -23,7 +23,10 @@ function PrevArrow(props) {
   );
 }
 
+
+
 const HomeSlider = ({ articles }) => {
+  console.log(articles)
   function amountSlide() {
     // eslint-disable-next-line no-unused-expressions
     return articles.length >= 3 ? 3 : (articles.length === 2 ? 2 : 1);
@@ -63,11 +66,26 @@ const HomeSlider = ({ articles }) => {
             Watch all articles
           </Link>
         </div>
-        {/* <div className="home-slider__gallery">
+        <div className="home-slider__gallery">
           <Slider {...settings} className="home-slider__gallery-list">
-            {articles.slice(0, 5).map((el) => <ArticleTile url={el.url} img={el.img} key={el.id} title={el.title} subtitle={el.subtitle} date={el.date} />)}
+          {
+            articles.map((post, el) => {
+              const { title, author, date, description, path, image } = post.node.frontmatter;
+              return (
+                <ArticleTile 
+                url={path} 
+                img={image.publicURL} 
+                key={el} 
+                title={title} 
+                subtitle={description} 
+                date={date} 
+                />
+              )
+              }
+            )
+          }
           </Slider>
-        </div> */}
+        </div>
       </div>
     </article>
   );

@@ -17,9 +17,7 @@ description: 'Security IoT data collection through sidechain connectivity'
             </h2>
             <p class="article-blog-content-text">
               Blockchain is the
-              {' '}
               <span class="article-blog-content-text-span">recognized solution</span>
-              {' '}
               to IoT’s
               cybersecurity problem. Built upon a fully developed and
               operable blockchain infrastructure, Emerald Circuit focuses on the physical collection of data using
@@ -36,8 +34,8 @@ description: 'Security IoT data collection through sidechain connectivity'
               <div class="article-blog-content-icon">
                 <div class="article-blog-content-icon-container">
                   <div class="article-blog-content-icon-first">
-                    <ReactSVG
-                      src={SvgIcon1}
+                    <img
+                      src="./blog-article-icon-square.svg"
                     />
                   </div>
                   <div class="article-blog-content-icon-first-block">
@@ -46,15 +44,15 @@ description: 'Security IoT data collection through sidechain connectivity'
                 </div>
               </div>
               <div class="svg-arrow">
-                <ReactSVG
-                  src={SvgArrow}
+                <img
+                  src="./blog-article-blue-arrow.svg"
                 />
               </div>
               <div class="article-blog-content-icon">
                 <div class="article-blog-content-icon-container">
                   <div class="article-blog-content-icon-first">
-                    <ReactSVG
-                      src={SvgIcon2}
+                    <img
+                      src="./blog-article-icon2.svg"
                     />
                   </div>
                   <div class="article-blog-content-icon-first-block">
@@ -63,15 +61,15 @@ description: 'Security IoT data collection through sidechain connectivity'
                 </div>
               </div>
               <div class="svg-arrow">
-                <ReactSVG
-                  src={SvgArrow}
+                <img
+                  src="./blog-article-blue-arrow1.svg"
                 />
               </div>
               <div class="article-blog-content-icon">
                 <div class="article-blog-content-icon-container">
                   <div class="article-blog-content-icon-first">
-                    <ReactSVG
-                      src={SvgIcon3}
+                    <img
+                      src="./blog-article-icon3.svg"
                     />
                   </div>
                   <div class="article-blog-content-icon-first-block">
@@ -80,15 +78,15 @@ description: 'Security IoT data collection through sidechain connectivity'
                 </div>
               </div>
               <div class="svg-arrow">
-                <ReactSVG
-                  src={SvgArrow}
+                <img
+                  src="./blog-article-blue-arrow2.svg"
                 />
               </div>
               <div class="article-blog-content-icon">
                 <div class="article-blog-content-icon-container">
                   <div class="article-blog-content-icon-first">
-                    <ReactSVG
-                      src={SvgIcon4}
+                    <img
+                      src="./blog-article-icon4.svg"
                     />
                   </div>
                   <div class="article-blog-content-icon-first-block">
@@ -109,7 +107,7 @@ description: 'Security IoT data collection through sidechain connectivity'
               production of smart machines that can analyze and diagnose issues without the need for human
               intervention.
             </p>
-            <img class="articles-bg-img" src='./blog-article-blue-bg.png' alt="img" />
+            <img class="articles-bg-img" src='./blog-article-city-bg.png' alt="img" />
             <p class="article-blog-content-text photo-description">
               Photo by
               <span class="photo-description-span"> Marc-Olivier Jodoin </span>

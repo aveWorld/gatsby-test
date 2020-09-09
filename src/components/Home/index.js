@@ -5,10 +5,11 @@ import Secure from './Secure';
 import HomeSlider from './HomeSlider';
 import Points from './Points';
 import Scheme from './Scheme';
-import articles from './article';
 
-const Home = (props) => {
-  const [articlesMain, setArticles] = useState(articles);
+
+const Home = ({ data }) => {
+  console.log(data)
+  const [articlesMain, setArticles] = useState(data.allMarkdownRemark.edges);
   return (
   <div>
     <Secure />

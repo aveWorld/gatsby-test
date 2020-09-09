@@ -1,10 +1,10 @@
 ---
-path: '/blog/the-internet-of-things-and-emerald-circuit'
+path: '/blog/intelligent-objects-for-guaranteed-product-authenticity'
 date: '17 September, 2020'
-title: 'The Internet of Things and Emerald Circuit:'
-author: 'misha'
-image: './ecb1_1.png'
-description: 'The Next Generation Of Intelligent Objects Has Arrived'
+title: 'Intelligent Objects For Guaranteed Product Authenticity'
+author: 'mishaGG'
+image: './ecb1_3.png'
+description: 'Emerald Circuit: Intelligent Objects For Guaranteed Product Authenticity'
 ---
 
 <div class="article-blog-content-article2">
@@ -14,7 +14,7 @@ description: 'The Next Generation Of Intelligent Objects Has Arrived'
             Emerald Circuit: Intelligent Objects For Guaranteed Product
             Authenticity
           </h2>
-          <img class="articles-bg-img" src='./blog-article-city-bg.png' alt="img" />
+          <img class="articles-bg-img" src='./blog-article-blue-bg.png' alt="img" />
           <p class="article-blog-content-text">
             Emerald Circuit is a cryptocurrency-based sidechain network focused
             exclusively on secure data collection and management using proprietary intelligent objects. From the

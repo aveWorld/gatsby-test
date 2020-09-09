@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
+import RegButton from '../components/Layout/RegButton'
 
 import Layout from "../components/Layout";
 
@@ -22,9 +23,12 @@ export default function Template({ data }) {
     const { title, author, date } = post.frontmatter;
     return (
         <Layout>
-            <div className="container">
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </div>
+                <div className="more-articles-btn">
+                <Link to="/blog">
+                    <RegButton text="WATCH MORE ARTICLES" />
+                </Link>
+                </div>
         </Layout>
     )
 }
