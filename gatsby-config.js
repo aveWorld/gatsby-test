@@ -7,7 +7,7 @@ module.exports = {
         resolve: "gatsby-plugin-web-font-loader",
         options: {
           custom: {
-            families: ["Trebuchet MS, Roboto, Reso Regular"],
+            // families: ["Trebuchet MS, Roboto, Reso Regular"],
             urls: ["/fonts/fonts.css"],
           },
         },
