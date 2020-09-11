@@ -50,7 +50,7 @@ const OurMission = () => (
             an estimated 2.9 billion events observed.
           </p>
           <p className="our-mission_content-link">
-            <a href="#" className="our-mission_content-link-items">Forbes</a>
+           Forbes
           </p>
         </div>
       </div>
@@ -67,7 +67,7 @@ const OurMission = () => (
             low-hanging fruit for attackers.”
           </p>
           <p className="our-mission_content-link">
-            <a href="#" className="our-mission_content-link-items">Threat Post</a>
+            Threat Post
           </p>
         </div>
       </div>
@@ -85,7 +85,7 @@ const OurMission = () => (
             leaks to, potentially, the hacking of important public systems.”
           </p>
           <p className="our-mission_content-link">
-            <a href="#" className="our-mission_content-link-items">Safeguarding the Internet of Things</a>
+            Safeguarding the Internet of Things
           </p>
         </div>
       </div>

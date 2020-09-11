@@ -16,7 +16,7 @@ const SameTimeMarket = () => (
           <div className="same-time-market__items-item">
             <p className="same-time-market__items-item-text">“152,200 IoT devices connectedevery minute by 2025.”</p>
             <p className="our-mission_content-link">
-              <a href="#" className="our-mission_content-link-items">IDC Data</a>
+              IDC Data
             </p>
           </div>
           <div className="same-time-market__items-item">
@@ -26,7 +26,7 @@ const SameTimeMarket = () => (
               billion US dollars in 2023. With a CAGR of 33.7% during this period.
             </p>
             <p className="our-mission_content-link">
-              <a href="#" className="our-mission_content-link-items">Deloitte</a>
+              Deloitte
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const SameTimeMarket = () => (
               $630 million.”
             </p>
             <p className="our-mission_content-link">
-              <a href="#" className="our-mission_content-link-items">Marketwatch</a>
+              Marketwatch
             </p>
           </div>
           <div className="same-time-market__items-item">
@@ -49,7 +49,7 @@ const SameTimeMarket = () => (
               {' '}
             </p>
             <p className="our-mission_content-link">
-              <a href="#" className="our-mission_content-link-items">Global News</a>
+              Global News
             </p>
           </div>
         </div>
