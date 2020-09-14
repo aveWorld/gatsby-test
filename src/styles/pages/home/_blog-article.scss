@@ -1,7 +1,8 @@
 .article-blog-title-bg {
   background-color: $darkBlue;
   position: relative;
-  &:before{
+
+  &:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -11,6 +12,10 @@
     z-index: -1;
     left: 0;
   }
+}
+
+h1 {
+  margin: .67em 0;
 }
 
 .article-blog {
@@ -51,11 +56,10 @@
   }
 
   &-content {
-    //transform: translate(0, -130px);
     text-align: center;
 
     &-text {
-      width: 68%;
+      width: 70%;
       margin: 40px auto;
       font-size: 16px;
       text-align: start;
@@ -144,6 +148,7 @@
       }
 
     }
+
     &-content-text {
       font-size: 13px;
     }

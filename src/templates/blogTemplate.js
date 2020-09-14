@@ -31,7 +31,7 @@ export default function Template({ data }) {
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="more-articles-btn">
                 <Link to="/blog">
-                    <RegButton text="WATCH MORE ARTICLES" />
+                    <RegButton text="READ MORE ARTICLES HERE" />
                 </Link>
                 </div>
         </Layout>
