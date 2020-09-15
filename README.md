@@ -2,9 +2,7 @@
 
 **Start developing.**
 
-    ```shell
-        yarn dev
-        ```
+    ``` yarn dev ```
 
     Your site is now running at `http://localhost:8000`!
 
@@ -12,9 +10,7 @@
 
 **Production.**
 
-    ```shell
-        yarn build
-        ```
+    ``` yarn build ```
 
     This command will create public folder that can be used for production.    
 
