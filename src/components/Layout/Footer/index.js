@@ -25,7 +25,7 @@ return (
             <Link to="/mission" className="footer__item">Mission</Link>
             <Link to="/sale" className="footer__item">IEO Sale</Link>
             <Link to="/docs" className="footer__item">Documentation</Link>
-            <a href="#" className="footer__item">Blog</a>
+            <Link to="/blog" className="footer__item">Blog</Link>
           </nav>
           <div className="footer__copy">
             <span>
@@ -38,15 +38,15 @@ return (
       </div>
       <div className="footer__rigth">
         <div className="footer__social">
-          <a href="/" className="footer__social-item"><ReactSVG SVG={MIcone} classSVG="footer__social-item" /></a>
+          <a href="/" className="footer__social-item" aria-label="Medium Icon"><ReactSVG SVG={MIcone} classSVG="footer__social-item" /></a>
           <a href="https://t.me/joinchat/AAAAAFBjCKxn6bvwEFpacA" className="footer__social-item">
             <ReactSVG
               classSVG="footer__social-item"
               SVG={TelegIcone}
             />
           </a>
-          <a href="/" className="footer__social-item"><ReactSVG classSVG="footer__social-item" SVG={FacebookIcone}/></a>
-          <a href="/" className="footer__social-item"><ReactSVG classSVG="footer__social-item" SVG={LinkIcone}/></a>
+          <a href="/" className="footer__social-item" aria-label="Facebook Icon"><ReactSVG classSVG="footer__social-item" SVG={FacebookIcone}/></a>
+          <a href="/" className="footer__social-item" aria-label="LinkedIn Icon"><ReactSVG classSVG="footer__social-item" SVG={LinkIcone}/></a>
         </div>
       </div>
     </div>

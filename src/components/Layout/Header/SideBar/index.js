@@ -30,6 +30,7 @@ const SideBar = () => {
         onStateChange={(state) => handleStateChange(state)}
       >
         <main>
+          {/* eslint-disable */}
           <p className="header-wrapper-navbar-items" onClick={closeMenu}>
             <Link to="/products" className="header-wrapper-navbar-items-link">
               Products and Services

@@ -68,7 +68,7 @@ const HomeSlider = ({ articles }) => {
           <Slider {...settings} className="home-slider__gallery-list">
           {
             articles.map((post, el) => {
-              const { title, author, date, description, path, image } = post.node.frontmatter;
+              const { title, date, description, path, image } = post.node.frontmatter;
               return (
                 <ArticleTile 
                 url={path} 

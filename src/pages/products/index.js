@@ -58,7 +58,7 @@ const Products = (props) => {
               <p className="second-sec__p">The Emerald Circuit Sidechain is an independent protocol operating on the Ambrosus Blockchain.
                 Utilized with the EMR Token, Data is sent from sensor, to sidechain and then onwards to the Ambrosus blockchain.</p>
             </div>
-            <img src={sec2Img} className="second-sec__img"/>
+            <img src={sec2Img} className="second-sec__img" alt=""/>
           </div>
         </div>
     </Layout>

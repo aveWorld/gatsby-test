@@ -37,7 +37,7 @@ const Blog = ({ data }) => (
         {/* <MapArticles /> */}
         {
         data.allMarkdownRemark.edges.map((post, el) => {
-          const { title, author, date, description, path, image } = post.node.frontmatter;
+          const { title, date, description, path, image } = post.node.frontmatter;
           return (
             <ArticleTile 
             url={path} 

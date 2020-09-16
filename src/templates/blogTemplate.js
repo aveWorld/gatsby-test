@@ -22,7 +22,7 @@ export const postQuery = graphql`
 
 export default function Template({ data }) {
     const post = data.markdownRemark;
-    const { title, author, date, description } = post.frontmatter;
+    const { title } = post.frontmatter;
     return (
         <Layout>
                 <Helmet>
