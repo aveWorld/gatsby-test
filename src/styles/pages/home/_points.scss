@@ -20,7 +20,7 @@
   &__list{
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
       flex-wrap: wrap;
 
     }
@@ -35,9 +35,10 @@
     color: $textColor;
     align-items: center;
     width: 100%;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
       flex-basis: 45%;
       max-width: 100%;
+      margin-top: 25px;
 
     }
     @media screen and (max-width: 500px) {
@@ -61,9 +62,10 @@
     font-weight: bold;
   }
   &__subtitle{
-    font-size: 40px;
-    line-height: 1.2;
-    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.25;
+    // font-weight: bold;
   }
 
 
