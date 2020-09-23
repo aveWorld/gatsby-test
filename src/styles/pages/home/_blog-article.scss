@@ -87,6 +87,17 @@ h1 {
   }
 }
 
+.article-fixed-width-img {
+  width: 100%;
+  height: auto;
+}
+
+.article-blog-i {
+  display: block;
+  line-height: 34px;
+  text-align: center;
+}
+
 .article-blog-content-icon-first {
   background-color: $white;
   border-radius: 50%;
