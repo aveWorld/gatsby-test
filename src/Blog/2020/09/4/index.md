@@ -1,7 +1,7 @@
 ---
 path: '/blog/emerald-circuit-artifact-preservation-and-monitoring-solutions-from-exhibit-to-blockchain'
 date: '23 September, 2020'
-title: 'Blockchain and IoT: A Primer'
+title: 'Emerald Circuit Artifact Preservation and Monitoring Solutions: From Exhibit to Blockchain'
 author: 'misha'
 image: './1_1-big.png'
 description: ' '
