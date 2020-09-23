@@ -46,6 +46,7 @@ description: ' '
           <h3 class="article-blog-main-title-h2">
             Understanding the Problem:
           </h3>
+          <img class="articles-bg-img" src="./1_2-big.png" alt="img" />
           <p class="article-blog-content-text">
             Museum artifact preservation is the management of ancient or delicate historical artifacts and art pieces.  
             Museums practicing artifact preservation must keep their artifacts under specific conditions for the public 
@@ -80,6 +81,7 @@ description: ' '
           <h3 class="article-blog-main-title-h2">
             Emerald Circuit: 21st Century Solutions for Museum Product Security
           </h3>
+          <img class="articles-bg-img" src="./1_3-big.png" alt="img" />
           <p class="article-blog-content-text">
             Emerald Circuit’s network of intelligent objects can monitor integrated humidity and temperature within exhibits which, 
             networked with one another, provide alerts to museum curators in real-time.  The biggest threat to safe artifact storage 
@@ -111,6 +113,7 @@ description: ' '
           <h3 class="article-blog-main-title-h2">
             Primary Value Provided:
           </h3>
+          <img class="articles-bg-img" src="./1_4-big.png" alt="img" />
           <p class="article-blog-content-text">
             Museums carry the responsibility of safekeeping humanity’s most cherished artifacts.  Whether a museum is housing neolithic 
             stone tools or impressionist masterpieces, the primary function of the institution is securing its artifacts for posterity.  Emerald 
