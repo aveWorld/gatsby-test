@@ -18,7 +18,7 @@ const Products = (props) => {
             <div className="container layout first-sec__layout">
               <div className="first-sec__build-for">
                   <div className="build-for__text">
-                      <h1 className="build-for__text__h1"><span className="build-for__text__h1__span">/</span> Built For Data Security Standards of Tomorrow</h1>
+                      <h1 className="build-for__text__h1"><span className="build-for__text__h1__span">/</span> Built For The Data Security Standards of Tomorrow</h1>
                       <p>Emerald Circuit’s Core Product Selection Is Grounded In the Belief That IoT Data Must Be Secure Above All Else.</p>
                       <p className="text-padding">The Emerald Circuit Solution Stack Includes Secure IoT Devices Made For Individual Products, Containers of Products, and Entire Pallets of Products.</p>
                   </div>
