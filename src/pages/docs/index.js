@@ -23,18 +23,18 @@ const Docs = () => (
       </h1>
       <div className="docs__cards">
         <DocsCard
-          text="Emerald Circuit Whitepaper"
+          textLink="Emerald Circuit Whitepaper"
           img={docsImg}
           file={WhitePaper}
         />
         <DocsCard
-          text="Emerald Circuit Crypto-Economics Paper"
+          textLink="Emerald Circuit Crypto-Economics Paper"
           img={docsImg}
           file={Cryptonomics}
         />
         <DocsCard text="Team Roadmap" img={docsImg} />
         <DocsCard
-          text="Emerald Circuit Tokenomics"
+          textLink="Emerald Circuit Tokenomics"
           img={docsImg}
           file={Tokenomics}
         />
@@ -48,22 +48,22 @@ const Docs = () => (
       <h2>Business Solutions:</h2>
       <div className="docs__cards">
         <DocsCard
-          text="Smart Logistics Solutions"
+          textLink="Smart Logistics Solutions"
           img={docsImg}
           file={DevSolutions1}
         />
         <DocsCard
-          text="Organ Transplant Solutions"
+          textLink="Organ Transplant Solutions"
           img={docsImg}
           file={DevSolutions2}
         />
         <DocsCard
-          text="Artifact Preservation and
+          textLink="Artifact Preservation and
           Monitoring Solutions"
           img={docsImg}
           file={DevSolutions3}
         />
-        <DocsCard text="Luxury Management" img={docsImg} file={DevSolutions4} />
+        <DocsCard textLink="Luxury Management" img={docsImg} file={DevSolutions4} />
       </div>
     </div>
   </Layout>
