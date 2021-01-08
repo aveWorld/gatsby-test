@@ -1,5 +1,6 @@
 // @flow
 import * as React from 'react';
+import {Link} from 'gatsby';
 
 import ReactSVG from '../../ReactSVG';
 
@@ -15,8 +16,8 @@ import Card from '../../Card';
 
 const Secure = () => (
   <section className="secure">
-    <ReactSVG SVG={leftImg} classSVG="secure__bg-img secure__bg-img_left" />
-    <ReactSVG SVG={rightImg} classSVG="secure__bg-img secure__bg-img_rigth" />
+    <ReactSVG SVG={leftImg} classSVG="secure__bg-img secure__bg-img_left"/>
+    <ReactSVG SVG={rightImg} classSVG="secure__bg-img secure__bg-img_rigth"/>
 
     <div className="secure__wrapper container ">
       <h1 className="secure__title">
@@ -38,9 +39,13 @@ const Secure = () => (
       </div>
 
       <div className="secure__list">
-        <Card text="More About Our Products" img={icon1} />
-        <Card text="Read Up On Emerald Circuit Documentation" img={icon2} />
-        <Card text="License Our Products For Your Data Needs" img={icon3} />
+        <Link to="/products/">
+          <Card textLink="More About Our Products" img={icon1}/>
+        </Link>
+        <Link to="/docs/">
+          <Card textLink="Read Up On Emerald Circuit Documentation" img={icon2}/>
+        </Link>
+        <Card text="License Our Products For Your Data Needs" img={icon3}/>
       </div>
     </div>
   </section>

@@ -7,7 +7,7 @@ const MapArticles = () => (
   articles.map((article) => {
     const { image, title, subtitle, date, id, url } = article;
     return (
-      <Link to={`/blog/${url}`}>
+      <Link to={`/blog/${url}/`}>
         <BlogArticle
           img={image}
           title={title}

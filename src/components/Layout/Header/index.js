@@ -31,27 +31,27 @@ const Header = (props) => (
       </div>
       <div className="header-wrapper-flex-container">
         <p className="header-wrapper-navbar-items">
-          <Link to="/products" className="header-wrapper-navbar-items-link">
+          <Link to="/products/" className="header-wrapper-navbar-items-link">
             Products and Services
           </Link>
         </p>
         <p className="header-wrapper-navbar-items">
-          <Link to="/mission" className="header-wrapper-navbar-items-link">
+          <Link to="/mission/" className="header-wrapper-navbar-items-link">
             Mission
           </Link>
         </p>
         <p className="header-wrapper-navbar-items">
-          <Link to="/sale" className="header-wrapper-navbar-items-link">
+          <Link to="/sale/" className="header-wrapper-navbar-items-link">
             IEO Sale
           </Link>
         </p>
         <p className="header-wrapper-navbar-items">
-          <Link to="/docs" className="header-wrapper-navbar-items-link">
+          <Link to="/docs/" className="header-wrapper-navbar-items-link">
             Documentation
           </Link>
         </p>
         <p className="header-wrapper-navbar-items">
-        <Link to="/blog" className="header-wrapper-navbar-items-link">
+        <Link to="/blog/" className="header-wrapper-navbar-items-link">
            Blog
           </Link>
         </p>

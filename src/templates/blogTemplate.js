@@ -30,7 +30,7 @@ export default function Template({ data }) {
                 </Helmet>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="more-articles-btn">
-                <Link to="/blog">
+                <Link to="/blog/">
                     <RegButton text="READ MORE ARTICLES HERE" />
                 </Link>
                 </div>

@@ -21,11 +21,11 @@ return (
         </Link>
         <div className="footer__wrap-nav">
           <nav className="footer__nav">
-            <Link to="/products" className="footer__item">Products and Services</Link>
-            <Link to="/mission" className="footer__item">Mission</Link>
-            <Link to="/sale" className="footer__item">IEO Sale</Link>
-            <Link to="/docs" className="footer__item">Documentation</Link>
-            <Link to="/blog" className="footer__item">Blog</Link>
+            <Link to="/products/" className="footer__item">Products and Services</Link>
+            <Link to="/mission/" className="footer__item">Mission</Link>
+            <Link to="/sale/" className="footer__item">IEO Sale</Link>
+            <Link to="/docs/" className="footer__item">Documentation</Link>
+            <Link to="/blog/" className="footer__item">Blog</Link>
           </nav>
           <div className="footer__copy">
             <span>

@@ -236,10 +236,10 @@
     border: transparent;
     display: flex;
     justify-content: center;
-    cursor: pointer ;
+    cursor: pointer;
+    margin: 0 auto;
     &:active{
       background: $activeColorBtn;
-
     }
 
     span {

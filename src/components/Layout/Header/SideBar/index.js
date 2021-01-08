@@ -32,27 +32,29 @@ const SideBar = () => {
         <main>
           {/* eslint-disable */}
           <p className="header-wrapper-navbar-items" onClick={closeMenu}>
-            <Link to="/products" className="header-wrapper-navbar-items-link">
+            <Link to="/products/" className="header-wrapper-navbar-items-link">
               Products and Services
             </Link>
           </p>
           <p className="header-wrapper-navbar-items" onClick={closeMenu}>
-            <Link to="/mission" className="header-wrapper-navbar-items-link">
+            <Link to="/mission/" className="header-wrapper-navbar-items-link">
               Mission
             </Link>
           </p>
           <p className="header-wrapper-navbar-items" onClick={closeMenu}>
-            <Link to="/sale" className="header-wrapper-navbar-items-link">
+            <Link to="/sale/" className="header-wrapper-navbar-items-link">
               IEO Sale
             </Link>
           </p>
           <p className="header-wrapper-navbar-items" onClick={closeMenu}>
-            <Link to="/docs" className="header-wrapper-navbar-items-link">
+            <Link to="/docs/" className="header-wrapper-navbar-items-link">
               Documentation
             </Link>
           </p>
           <p className="header-wrapper-navbar-items" onClick={closeMenu}>
-            <a href="#" className="header-wrapper-navbar-items-link">Blog</a>
+            <Link to="/blog/" className="header-wrapper-navbar-items-link">
+              Blog
+            </Link>
           </p>
         </main>
       </Menu>
